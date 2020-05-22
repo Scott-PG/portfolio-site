@@ -5,22 +5,28 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about">
-      <h3 id="about" className="magenta">
+      <h2 id="about" className="magenta">
         About
-      </h3>
+      </h2>
       <img
         className="profile-pic"
         src={profilePic}
         alt="Scott three-quarters profile outside"
       />
       <p>
-        Scott is an enthusiastic and personable software engineer and lighting
+        I am an enthusiastic and personable software engineer and lighting
         programmer who is passionate about solving problems and connecting with
         other people. Whether it be the development of user-friendly systems or
-        immersive lighting designs, he strives to create interactive experiences
-        with real people in mind. Scott seeks the opportunity to work for a
+        immersive lighting designs, I strive to create interactive experiences
+        with real people in mind. I seek the opportunity to work for a
         mission-driven company that believes that collaboration and
         inclusiveness is central to an organization’s success.
+      </p>
+      {/* <br /> */}
+      <p>
+        My skills include HTML, CSS, JavaScript, Git, React, Node.js, MERN
+        Stack, SQL, PostgreSQL, Ruby, Ruby on Rails, Algorithms, and Data
+        Structures. I also have experience managing small technical teams.
       </p>
     </div>
   );

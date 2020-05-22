@@ -19,6 +19,7 @@ export const GlobalStyles = createGlobalStyle`
   nav {
     background-color: ${({ theme }) => theme.accent};
   }
+  
   a {
     color: ${({ theme }) => theme.text};
     text-decoration: none;

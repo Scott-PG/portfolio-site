@@ -1,14 +1,14 @@
+.about h2 {
+  margin: 25px auto;
+}
+
+.about p {
+  margin: 0 auto 15px;
+}
+
 .profile-pic {
   border-radius: 50%;
   width: 60vw;
   max-width: 400px;
-  margin: 0 auto 15px;
-}
-
-.about h3 {
-  margin: 15px auto;
-}
-
-.about p {
   margin: 0 auto 15px;
 }

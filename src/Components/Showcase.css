@@ -1,0 +1,64 @@
+.showcase h2 {
+  margin: 25px auto 5px;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-div {
+  display: grid;
+  margin: 20px auto 30px;
+  grid-template-columns: 400px 30px 300px;
+  grid-template-rows: 50px auto 30px;
+  grid-template-areas:
+    "i . t"
+    "i . p"
+    "i . l";
+}
+
+.portfolio-image {
+  grid-area: i;
+  width: 100%;
+  max-width: 400px;
+}
+
+.portfolio-title {
+  grid-area: t;
+}
+
+.portfolio-text {
+  grid-area: p;
+}
+
+.portfolio-links {
+  grid-area: l;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 780px) {
+  .portfolio-div {
+    display: block;
+    margin: 20px auto 20px;
+  }
+
+  .portfolio-title {
+    margin: 5px auto 10px;
+  }
+
+  .portfolio-image {
+    margin: 5px auto 10px;
+  }
+
+  .portfolio-text {
+    margin: 5px auto 10px;
+    max-width: 400px;
+  }
+
+  .portfolio-links {
+    margin: 15px auto 0;
+  }
+}

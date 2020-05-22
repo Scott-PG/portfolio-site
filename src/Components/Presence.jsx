@@ -2,7 +2,7 @@ import React from "react";
 
 const Presence = () => {
   return (
-    <div className="contact">
+    <div className="presence">
       <p>Presence Placeholder</p>
     </div>
   );
