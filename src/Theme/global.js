@@ -17,7 +17,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.green};
   }
 
-  header {
+  header, footer {
     background-color: ${({ theme }) => theme.accent};
   }
   

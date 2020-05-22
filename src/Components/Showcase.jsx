@@ -36,7 +36,7 @@ const Showcase = () => {
             href="https://github.com/Scott-PG/PayPaladin"
             className="portfolio-link"
           >
-            GitHub
+            GitHub Repository
           </a>
         </div>
       </div>
@@ -63,7 +63,7 @@ const Showcase = () => {
             href="https://github.com/Scott-PG/AnChoi"
             className="portfolio-link"
           >
-            GitHub
+            GitHub Repository
           </a>
         </div>
       </div>
@@ -93,7 +93,7 @@ const Showcase = () => {
             href="https://github.com/Scott-PG/the-brewers-guide"
             className="portfolio-link"
           >
-            GitHub
+            GitHub Repository
           </a>
         </div>
       </div>

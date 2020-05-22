@@ -29,6 +29,12 @@ body {
 
 main {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 68px;
   padding: 0 15px;
+}
+
+@media (max-width: 414px) {
+  main {
+    margin: 0 auto 30px;
+  }
 }
