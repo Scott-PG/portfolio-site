@@ -1,11 +1,11 @@
 import React from "react";
 
-const Contact = () => {
+const Presence = () => {
   return (
     <div className="contact">
-      <p>Contact Placeholder</p>
+      <p>Presence Placeholder</p>
     </div>
   );
 };
 
-export default Contact;
+export default Presence;

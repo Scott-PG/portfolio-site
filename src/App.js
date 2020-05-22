@@ -6,9 +6,9 @@ import { GlobalStyles } from "./Theme/global";
 import "./App.css";
 
 import Header from "./Components/Header";
-import Bio from "./Components/Bio";
+import About from "./Components/About";
 import Showcase from "./Components/Showcase";
-import Contact from "./Components/Contact";
+import Presence from "./Components/Presence";
 import Footer from "./Components/Footer";
 
 const App = () => {
@@ -25,9 +25,9 @@ const App = () => {
         <GlobalStyles />
         <Header theme={theme} toggleTheme={toggleTheme} />
         <main>
-          <Bio />
+          <About />
           <Showcase />
-          <Contact />
+          <Presence />
         </main>
         <Footer />
       </>
