@@ -16,7 +16,8 @@ export const GlobalStyles = createGlobalStyle`
   h1 {
     color: ${({ theme }) => theme.green};
   }
-  nav {
+
+  header {
     background-color: ${({ theme }) => theme.accent};
   }
   

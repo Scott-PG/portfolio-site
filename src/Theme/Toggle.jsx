@@ -9,7 +9,11 @@ import { ReactComponent as SunIcon } from "../Assets/icons/sun.svg";
 const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === "light";
   return (
-    <ToggleContainer lightTheme={isLight} onClick={toggleTheme}>
+    <ToggleContainer
+      aria-hidden="true"
+      lightTheme={isLight}
+      onClick={toggleTheme}
+    >
       <SunIcon />
       <MoonIcon />
     </ToggleContainer>
