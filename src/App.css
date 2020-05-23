@@ -26,6 +26,7 @@ h5,
 
 body {
   text-align: center;
+  overflow-x: hidden;
 }
 
 main {
