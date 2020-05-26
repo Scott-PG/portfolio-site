@@ -20,7 +20,7 @@ const About = () => {
         immersive lighting designs, I strive to create interactive experiences
         with real people in mind. I seek the opportunity to work for a
         mission-driven company that believes that collaboration and
-        inclusiveness is central to an organization’s success.
+        inclusiveness are central to an organization’s success.
       </p>
       {/* <br /> */}
       <p>
