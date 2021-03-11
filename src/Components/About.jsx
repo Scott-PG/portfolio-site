@@ -5,9 +5,9 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about">
-      <h2 id="about" className="magenta">
+      <h3 id="about" className="magenta">
         About
-      </h2>
+      </h3>
       <img
         className="profile-pic"
         src={profilePic}

@@ -7,7 +7,7 @@ const Header = ({ theme, toggleTheme }) => {
     <header>
       <div className="header-text">
         <h1>Scott Griffith</h1>
-        <h4> UI Developer | Full-Stack Engineer | Visual Designer</h4>
+        <h2> UI Developer | Full-Stack Engineer | Visual Designer</h2>
       </div>
       <nav>
         <div className="navlinks">

@@ -7,6 +7,10 @@ header {
   top: -100px;
 }
 
+header h2 {
+  font-size: 1.3rem;
+}
+
 .header-text {
   height: 99px;
   display: flex;
@@ -31,8 +35,8 @@ nav {
   font-size: 1.13rem;
 }
 
-@media (max-width: 450px) {
-  header h4 {
+@media (max-width: 475px) {
+  header h2 {
     font-size: 0.9rem;
   }
   nav {
@@ -41,7 +45,7 @@ nav {
 }
 
 @media (max-width: 375px) {
-  header h4 {
+  header h2 {
     font-size: 0.7rem;
   }
 }

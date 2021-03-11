@@ -7,11 +7,11 @@ import payPaladinPic from "../Assets/images/paypaladin-screen.png";
 const Showcase = () => {
   return (
     <div className="showcase">
-      <h2 id="showcase" className="orange">
+      <h3 id="showcase" className="orange">
         Showcase
-      </h2>
+      </h3>
       <div className="portfolio-div">
-        <h3 className="portfolio-title">PayPaladin</h3>
+        <h4 className="portfolio-title">PayPaladin</h4>
         <img
           className="portfolio-image"
           src={payPaladinPic}
@@ -42,7 +42,7 @@ const Showcase = () => {
       </div>
 
       <div className="portfolio-div">
-        <h3 className="portfolio-title">An Choi</h3>
+        <h4 className="portfolio-title">An Choi</h4>
         <img
           className="portfolio-image"
           src={anChoiPic}
@@ -68,7 +68,7 @@ const Showcase = () => {
         </div>
       </div>
       <div className="portfolio-div">
-        <h3 className="portfolio-title">The Brewer's Guide</h3>
+        <h4 className="portfolio-title">The Brewer's Guide</h4>
         <img
           className="portfolio-image"
           src={brewersGuidePic}
