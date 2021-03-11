@@ -2,7 +2,7 @@ import React from "react";
 import { func, string } from "prop-types";
 import ToggleContainer from "./Toggle.styled.jsx";
 
-// Import a couple of SVG files we'll use in the design: https://www.flaticon.com
+//credit to https://www.flaticon.com
 import { ReactComponent as MoonIcon } from "../Assets/icons/moon.svg";
 import { ReactComponent as SunIcon } from "../Assets/icons/sun.svg";
 
@@ -11,11 +11,12 @@ const Toggle = ({ theme, toggleTheme }) => {
   return (
     <ToggleContainer
       aria-hidden="true"
+      alt=""
       lightTheme={isLight}
       onClick={toggleTheme}
     >
-      <SunIcon />
-      <MoonIcon />
+      <SunIcon aria-hidden="true" alt="" tabIndex="-1" />
+      <MoonIcon aria-hidden="true" alt="" tabIndex="-1" />
     </ToggleContainer>
   );
 };

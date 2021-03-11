@@ -4,9 +4,9 @@ import "./Presence.css";
 const Presence = () => {
   return (
     <div className="presence">
-      <h2 id="presence" className="cyan">
+      <h3 id="presence" className="cyan">
         Presence
-      </h2>
+      </h3>
       <div className="presence-links">
         <a href="mailto:contact@scottgriffith.dev">
           <h3>Email</h3>
