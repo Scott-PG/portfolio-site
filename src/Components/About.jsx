@@ -25,9 +25,9 @@ const About = () => {
       <p>
         Currently, I work for Policygenius as a Software Engineer II.
         Previously, I worked at CGI Federal as a UI Developer. Before starting
-        as a software engineer, I've been a freelance theatrical lighting
-        electrician, programmer, and designer in NYC, a tour manager for
-        iLuminate, and a theatrical production manager aboard cruise ships.
+        as a Software Engineer, I was a freelance theatrical lighting
+        electrician, programmer, and designer in NYC, a Tour Manager for
+        iLuminate, and a theatrical Production Manager aboard cruise ships.
       </p>
       <p>
         My skills include HTML, CSS, JavaScript, Typescript, React, Angular,
