@@ -16,17 +16,29 @@ const About = () => {
       <p>
         I am an enthusiastic and personable software engineer who enjoys solving
         problems and connecting with other people. Whether it be the development
-        of user-friendly systems or immersive lighting designs, I strive to
-        create interactive experiences with real people in mind. I seek the
-        opportunity to work for a mission-driven company that believes
-        collaboration and inclusiveness are central to an organization’s
-        success.
+        of user-friendly systems or high-performance applications, I strive to
+        create interactive experiences with real people in mind. I personally
+        value companies that value diversity and inclusion, a sense of fun, a
+        clear sense of purpose, and who do things that make the world just a
+        little more pleasant.
       </p>
       <p>
-        My skills include HTML5, CSS3, JavaScript, Git, React, Angular, Node.js,
-        Mongo, Express.js, SQL, PostgreSQL, Ruby, Ruby on Rails, Algorithms, and
-        Data Structures. Experience with large codebases, distributed teams, and
-        reviewing code.
+        Currently, I work for Policygenius as a Software Engineer II.
+        Previously, I worked at CGI Federal as a UI Developer. Before starting
+        as a software engineer, I've been a freelance theatrical lighting
+        electrician, programmer, and designer in NYC, a tour manager for
+        iLuminate, and a theatrical production manager aboard cruise ships.
+      </p>
+      <p>
+        My skills include HTML, CSS, JavaScript, Typescript, React, Angular,
+        Git, Node.js, Mongo, Express.js, SQL, PostgreSQL, GraphQL, Ruby, Rails,
+        Go, Algorithms, and Data Structures. Experience with large codebases,
+        distributed teams, CI/CD, Agile and Scrum methodologies, and reviewing
+        code.
+      </p>
+      <p>
+        When I'm not coding, I can be found playing games of all sorts,
+        customizing my gaming PC, reading, and exploring Brooklyn.
       </p>
     </div>
   );
