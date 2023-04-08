@@ -1,0 +1,45 @@
+.toggle.light {
+  --toggle-border: #FAFAFA;
+  --toggle-background: #439cd8;
+  --sun-position: translateX(9.5px);
+  --moon-position: translateX(-50px);
+}
+
+.toggle.dark {
+  --toggle-border: #FAFAFA;
+  --toggle-background: #439cd8;
+  --sun-position: translateX(50px);
+  --moon-position: translateX(-8px);
+}
+
+.toggle {
+  transition: all 0.25s linear;
+  background: var(--toggle-background);
+  border: 2px solid var(--toggle-border);
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 0.2rem;
+  position: relative;
+  width: 48px;
+  height: 32px;
+}
+
+.sun, .moon {
+  height: auto;
+  width: 2.5rem;
+}
+
+.sun {
+  transition: all 0.25s linear;
+  transform: var(--sun-position);
+}
+
+.moon {
+  transition: all 0.25s linear;
+  transform: var(--moon-position);
+}
