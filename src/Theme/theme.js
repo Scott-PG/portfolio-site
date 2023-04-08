@@ -10,7 +10,6 @@ export const lightTheme = {
   lilac: "#AE81FF",
   text: "#020301",
   border: "#FAFAFA",
-  gradient: "linear-gradient(#39598A, #79D7ED)",
   toggleBackground: "#439cd8",
 };
 
@@ -26,6 +25,5 @@ export const darkTheme = {
   lilac: "#AB9DF2",
   text: "#FDF9F3",
   border: "#2C292D",
-  gradient: "linear-gradient(#091236, #1E215D)",
   toggleBackground: "#1E215D",
 };
