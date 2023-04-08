@@ -20,10 +20,10 @@ const Showcase = () => {
         <p className="portfolio-text">
           PayPaladin is a site that allows virtual gameplay currency
           transactions between D&D players. The key challenge with this page is
-          authentication, limiting edit functionality to a user's characters and
-          campaigns, while still being open enough to allow multiple users to
-          safely use it. The back-end and front-end are built from scratch in
-          React and Rails.
+          authentication, limiting edit functionality to a user&apos;s
+          characters and campaigns, while still being open enough to allow
+          multiple users to safely use it. The back-end and front-end are built
+          from scratch in React and Rails.
         </p>
         <div className="portfolio-links">
           <a
@@ -68,19 +68,19 @@ const Showcase = () => {
         </div>
       </div>
       <div className="portfolio-div">
-        <h4 className="portfolio-title">The Brewer's Guide</h4>
+        <h4 className="portfolio-title">The Brewer&apos;s Guide</h4>
         <img
           className="portfolio-image"
           src={brewersGuidePic}
           alt="Brewer's Guide Example"
         />
         <p className="portfolio-text">
-          The Brewer's Guide is a class project based on a public database of
-          craft beer and breweries, BreweryDB. The project was to use React to
-          render the API in a seamless and non-apparent way. I also had some fun
-          using React Storybook to render a custom set of navigation buttons,
-          themed around beer bottles. The labels on the bottles are page
-          numbers.
+          The Brewer&apos;s Guide is a class project based on a public database
+          of craft beer and breweries, BreweryDB. The project was to use React
+          to render the API in a seamless and non-apparent way. I also had some
+          fun using React Storybook to render a custom set of navigation
+          buttons, themed around beer bottles. The labels on the bottles are
+          page numbers.
         </p>
         <div className="portfolio-links">
           <a
