@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": false,
+    "es6": true,
+    "node": true
+  },
+  "plugins": ["prettier"],
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/prop-types": 0 // remove once we move to ts
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

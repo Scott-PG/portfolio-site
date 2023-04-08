@@ -36,7 +36,7 @@ const About = () => (
       code.
     </p>
     <p>
-      When I'm not coding, I can be found playing games of all sorts,
+      When I&apos;m not coding, I can be found playing games of all sorts,
       customizing my gaming PC, reading, and exploring Brooklyn.
     </p>
   </div>

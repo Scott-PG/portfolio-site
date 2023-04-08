@@ -1,13 +1,14 @@
 import React from "react";
 
-import './Toggle.css'
+import "./Toggle.css";
 
 //credit to https://www.flaticon.com
 import { ReactComponent as MoonIcon } from "../Assets/icons/moon.svg";
 import { ReactComponent as SunIcon } from "../Assets/icons/sun.svg";
 
 const Toggle = ({ theme, toggleTheme }) => (
-  <button className={`toggle ${theme}`}
+  <button
+    className={`toggle ${theme}`}
     title="Dark Mode Toggle"
     onClick={toggleTheme}
   >
@@ -15,7 +16,6 @@ const Toggle = ({ theme, toggleTheme }) => (
     <MoonIcon aria-hidden={true} alt="" className="moon" />
   </button>
 );
-
 
 export default Toggle;
 
