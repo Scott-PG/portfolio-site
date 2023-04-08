@@ -10,13 +10,12 @@ const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === "light";
   return (
     <ToggleContainer
-      aria-hidden="true"
-      alt=""
+      title="Dark Mode Toggle"
       lightTheme={isLight}
       onClick={toggleTheme}
     >
-      <SunIcon aria-hidden="true" alt="" tabIndex="-1" />
-      <MoonIcon aria-hidden="true" alt="" tabIndex="-1" />
+      <SunIcon aria-hidden={true} alt="" />
+      <MoonIcon aria-hidden={true} alt="" />
     </ToggleContainer>
   );
 };
