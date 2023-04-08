@@ -1,13 +1,9 @@
 footer {
-  width: 100vw;
-  height: 38px;
-  position: fixed;
-  bottom: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 0 30px;
-  z-index: 1;
+  align-items: center;
+  height: 38px;
+  padding: 0 10px;
 }
 
 .footer-links {
@@ -15,10 +11,4 @@ footer {
   max-width: 800px;
   display: flex;
   justify-content: space-between;
-}
-
-@media (max-width: 414px) {
-  footer {
-    position: unset;
-  }
 }
