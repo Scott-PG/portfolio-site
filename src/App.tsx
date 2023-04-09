@@ -1,4 +1,4 @@
-import { useDarkMode } from "./Theme/useDarkMode";
+import { useDarkMode } from "./Toggle/useDarkMode";
 import "./App.css";
 
 import Header from "./Components/Header";
