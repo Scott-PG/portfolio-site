@@ -1,4 +1,3 @@
-import React from "react";
 import profilePic from "../Assets/images/scott-square.jpg";
 import "./About.css";
 

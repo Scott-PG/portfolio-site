@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./Toggle.css";
 
 //credit to https://www.flaticon.com
