@@ -1,7 +1,8 @@
-import Toggle from "../../Toggle";
+import Toggle from "./Toggle";
 import "./Header.css";
+import { Props } from "./types";
 
-const Header = ({ theme, toggleTheme }) => {
+const Header = ({ theme, toggleTheme }: Props) => {
   return (
     <header>
       <div className="header-text">

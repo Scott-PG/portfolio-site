@@ -1,6 +1,6 @@
-import profilePic from "../../Assets/images/scott-square.jpg";
 import "./About.css";
 import { bioParagraphs } from "./constants";
+import profilePic from "../../assets/images/scott-square.jpg";
 
 const About = () => (
   <div className="about">

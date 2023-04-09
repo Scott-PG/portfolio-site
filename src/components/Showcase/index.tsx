@@ -1,7 +1,7 @@
 import "./Showcase.css";
-import brewersGuidePic from "../Assets/images/brewers-guide-screen.png";
-import anChoiPic from "../Assets/images/an-choi-screen.png";
-import payPaladinPic from "../Assets/images/paypaladin-screen.png";
+import brewersGuidePic from "../../assets/images/brewers-guide-screen.png";
+import anChoiPic from "../../assets/images/an-choi-screen.png";
+import payPaladinPic from "../../assets/images/paypaladin-screen.png";
 
 const Showcase = () => {
   return (

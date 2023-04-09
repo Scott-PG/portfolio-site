@@ -17,8 +17,7 @@
     "project": ["./tsconfig.json", "./tsconfig.node.json"]
   },
   "rules": {
-    "prettier/prettier": ["error"],
-    "react/prop-types": 0 // remove once we move to ts
+    "prettier/prettier": ["error"]
   },
   "settings": {
     "react": {

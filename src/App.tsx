@@ -1,18 +1,15 @@
-import { useDarkMode } from "./Toggle/useDarkMode";
+import { useDarkMode } from "./utils/useDarkMode";
 import "./App.css";
 
-import Header from "./components/Header";
-import Showcase from "./components/Showcase";
-import Presence from "./components/Presence";
-import Footer from "./components/Footer";
 import About from "./components/About";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Presence from "./components/Presence";
+import Showcase from "./components/Showcase";
 
 const App = () => {
-  const [theme, toggleTheme, componentMounted] = useDarkMode();
+  const { theme, toggleTheme } = useDarkMode();
 
-  if (!componentMounted) {
-    return <div />;
-  }
   return (
     <div className={`app ${theme}`}>
       <Header theme={theme} toggleTheme={toggleTheme} />
