@@ -1,4 +1,4 @@
-import Toggle from "../Toggle/Toggle";
+import Toggle from "../../Toggle";
 import "./Header.css";
 
 const Header = ({ theme, toggleTheme }) => {
