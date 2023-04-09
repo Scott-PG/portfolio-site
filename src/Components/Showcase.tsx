@@ -1,4 +1,3 @@
-import React from "react";
 import "./Showcase.css";
 import brewersGuidePic from "../Assets/images/brewers-guide-screen.png";
 import anChoiPic from "../Assets/images/an-choi-screen.png";
