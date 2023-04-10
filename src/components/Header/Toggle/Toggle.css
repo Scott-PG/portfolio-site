@@ -1,13 +1,13 @@
 .toggle.light {
-  --toggle-border: #FAFAFA;
+  --toggle-border: #020301;
   --toggle-background: #439cd8;
   --sun-position: translateX(9.5px);
   --moon-position: translateX(-50px);
 }
 
 .toggle.dark {
-  --toggle-border: #FAFAFA;
-  --toggle-background: #439cd8;
+  --toggle-border: #FDF9F3;
+  --toggle-background: #1E215D;
   --sun-position: translateX(50px);
   --moon-position: translateX(-8px);
 }
