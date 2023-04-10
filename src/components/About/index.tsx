@@ -1,5 +1,5 @@
 import "./About.css";
-import { bioParagraphs } from "./constants";
+import { BIO_PARAGRAPHS } from "./constants";
 import profilePic from "../../assets/images/scott-square.jpg";
 
 const About = () => (
@@ -14,7 +14,7 @@ const About = () => (
       width="400px"
       alt="Scott three-quarters profile outside"
     />
-    {bioParagraphs.map((item) => (
+    {BIO_PARAGRAPHS.map((item) => (
       <p key={item.key}>{item.paragraph}</p>
     ))}
   </div>

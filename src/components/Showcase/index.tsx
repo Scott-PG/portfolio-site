@@ -15,7 +15,7 @@ const Showcase = () => {
             width="400px"
             height="294px"
             src={showcase.imgSrc}
-            alt={`${showcase.title} Example`}
+            alt=""
           />
           <p className="portfolio-text">{showcase.description}</p>
           <div className="portfolio-links">

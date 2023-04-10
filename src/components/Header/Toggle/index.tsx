@@ -9,7 +9,7 @@ import SunIcon from "./SunIcon";
 const Toggle = ({ theme, toggleTheme }: Props) => (
   <button
     className={`toggle ${theme}`}
-    title="Dark Mode Toggle"
+    title={`Dark mode toggle, current mode is ${theme}`}
     onClick={toggleTheme}
   >
     <SunIcon />

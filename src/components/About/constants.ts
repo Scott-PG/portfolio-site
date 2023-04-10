@@ -3,7 +3,7 @@ type keyedParagraph = {
   paragraph: string;
 };
 
-export const bioParagraphs: keyedParagraph[] = [
+export const BIO_PARAGRAPHS: keyedParagraph[] = [
   {
     key: 1,
     paragraph:
