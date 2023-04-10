@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 declare module "*.png" {
-  const value: any;
-  export default value;
+  const path: string;
+  export default path;
 }
 
 declare module "*.jpg" {
-  const value: any;
-  export default value;
+  const path: string;
+  export default path;
 }

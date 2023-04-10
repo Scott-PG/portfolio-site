@@ -22,8 +22,8 @@
 
 .portfolio-image {
   grid-area: i;
-  width: 100%;
-  max-width: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 .portfolio-title {
