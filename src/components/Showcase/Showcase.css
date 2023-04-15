@@ -13,10 +13,11 @@
   display: grid;
   margin: 20px auto 30px;
   grid-template:
-    "i . t" 50px
-    "i . p" auto
-    "i . l" 30px
-    / 400px 30px 300px;;
+    "i t" 50px
+    "i p" auto
+    "i l" 30px
+    / 400px auto;
+  column-gap: 30px;
 }
 
 .portfolio-image {

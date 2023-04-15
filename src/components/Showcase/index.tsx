@@ -11,8 +11,8 @@ const Showcase = () => (
         <h4 className="portfolio-title">{showcase.title}</h4>
         <img
           className="portfolio-image"
-          width="400px"
-          height="294px"
+          width="400"
+          height="294"
           src={showcase.imgSrc}
           alt=""
         />
