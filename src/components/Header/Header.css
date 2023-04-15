@@ -2,13 +2,12 @@ header {
   height: 137px;
   width: 100%;
   z-index: 1;
-  position: -webkit-sticky;
   position: sticky;
   top: -100px;
 }
 
 header h2 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
 }
 
 .header-text {
@@ -35,16 +34,17 @@ nav {
   font-size: 1.13rem;
 }
 
-@media (max-width: 475px) {
+@media (width <= 475px) {
   header h2 {
     font-size: 0.9rem;
   }
+
   nav {
     padding: 3px 10px;
   }
 }
 
-@media (max-width: 375px) {
+@media (width <= 375px) {
   header h2 {
     font-size: 0.7rem;
   }

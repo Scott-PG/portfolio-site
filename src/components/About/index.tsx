@@ -10,8 +10,8 @@ const About = () => (
     <img
       className="profile-pic"
       src={profilePic}
-      height="400px"
-      width="400px"
+      height="400"
+      width="400"
       alt="Scott three-quarters profile outside"
     />
     {BIO_PARAGRAPHS.map((item) => (
