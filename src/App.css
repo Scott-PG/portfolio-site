@@ -86,7 +86,7 @@ a {
 }
 
 main {
-  max-width: 900px;
+  max-width: 800px;
   padding: 0 15px 30px;
   margin: 0 auto;
   transition: all 0.25s linear;
