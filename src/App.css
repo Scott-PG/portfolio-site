@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Roboto, sans-serif;
 }
 
 .app.light {
@@ -16,10 +17,6 @@
   --cyan: #00747f;
   --orange: #a55b00;
   --lilac: #AE81FF;
-
-  transition: all 0.25s linear;
-  background-color: var(--body-background);
-  color: var(--main-text-color);
 }
 
 .app.dark {
@@ -33,7 +30,9 @@
   --cyan: #78DCE8;
   --orange: #FC9866;
   --lilac: #AB9DF2;
+}
 
+.app {
   transition: all 0.25s linear;
   background-color: var(--body-background);
   color: var(--main-text-color);
@@ -42,11 +41,6 @@
 html {
   scroll-padding-top: 50px; /* height of sticky header */
   scroll-behavior: smooth;
-}
-
-p,
-a {
-  font-family: Roboto, sans-serif;
 }
 
 h1,
@@ -66,10 +60,6 @@ h1 {
   color: var(--green)
 }
 
-h2 {
-  color: var(--main-text-color)
-}
-
 header, footer {
   background: var(--accent-color);
 }
@@ -79,19 +69,10 @@ a {
   text-decoration: none;
 }
 
-.about, .showcase, .presence, .timeline {
-  transition: all 0.25s linear;
-  background-color: var(--body-background);
-  color: var(--main-text-color);
-}
-
 main {
   max-width: 800px;
   padding: 0 15px 30px;
   margin: 0 auto;
-  transition: all 0.25s linear;
-  background-color: var(--body-background);
-  color: var(--main-text-color);
 }
 
 .magenta {

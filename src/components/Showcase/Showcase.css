@@ -9,57 +9,57 @@
   align-items: center;
 }
 
-.portfolio-div {
+.showcase-div {
   display: grid;
   margin: 20px auto 30px;
   grid-template:
     "i t" 50px
-    "i p" auto
+    "i d" auto
     "i l" 30px
     / 400px auto;
   column-gap: 30px;
 }
 
-.portfolio-image {
+.showcase-image {
   grid-area: i;
   max-width: 100%;
   height: auto;
 }
 
-.portfolio-title {
+.showcase-title {
   grid-area: t;
 }
 
-.portfolio-text {
-  grid-area: p;
+.showcase-description {
+  grid-area: d;
 }
 
-.portfolio-links {
+.showcase-links {
   grid-area: l;
   display: flex;
   justify-content: space-evenly;
 }
 
 @media (width <= 780px) {
-  .portfolio-div {
+  .showcase-div {
     display: block;
     margin: 20px auto;
   }
 
-  .portfolio-title {
+  .showcase-title {
     margin: 5px auto 10px;
   }
 
-  .portfolio-image {
+  .showcase-image {
     margin: 5px auto 10px;
   }
 
-  .portfolio-text {
+  .showcase-description {
     margin: 5px auto 10px;
     max-width: 400px;
   }
 
-  .portfolio-links {
+  .showcase-links {
     margin: 15px auto 0;
   }
 }

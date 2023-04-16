@@ -32,14 +32,13 @@
 .sun, .moon {
   height: auto;
   width: 2.5rem;
+  transition: all 0.25s linear;
 }
 
 .sun {
-  transition: all 0.25s linear;
   transform: var(--sun-position);
 }
 
 .moon {
-  transition: all 0.25s linear;
   transform: var(--moon-position);
 }

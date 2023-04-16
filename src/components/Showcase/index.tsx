@@ -7,21 +7,21 @@ const Showcase = () => (
       Showcase
     </h3>
     {SHOWCASE_ARRAY.map((showcase) => (
-      <div key={showcase.title} className="portfolio-div">
-        <h4 className="portfolio-title">{showcase.title}</h4>
+      <div key={showcase.title} className="showcase-div">
+        <h4 className="showcase-title">{showcase.title}</h4>
         <img
-          className="portfolio-image"
+          className="showcase-image"
           width="400"
           height="294"
           src={showcase.imgSrc}
           alt=""
         />
-        <p className="portfolio-text">{showcase.description}</p>
-        <div className="portfolio-links">
-          <a href={showcase.deployedLink} className="portfolio-link">
+        <p className="showcase-description">{showcase.description}</p>
+        <div className="showcase-links">
+          <a href={showcase.deployedLink} className="showcase-link">
             Deployed Site
           </a>
-          <a href={showcase.githubLink} className="portfolio-link">
+          <a href={showcase.githubLink} className="showcase-link">
             GitHub Repository
           </a>
         </div>
