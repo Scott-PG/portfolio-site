@@ -7,7 +7,7 @@ export const BIO_PARAGRAPHS: keyedParagraph[] = [
   {
     key: 1,
     paragraph:
-      "I am an enthusiastic and personable software engineer who enjoys solving problems and connecting with other people. Whether it be the development of user-friendly systems or high-performance applications, I strive to create interactive experiences with real people in mind. I value companies that value diversity and inclusion, a sense of fun, a clear sense of purpose, and who do things that make the world just a little more pleasant.",
+      "I am an enthusiastic and personable software engineer who enjoys solving problems and connecting with other people. I strive to create useful, performant, and accessible experiences with real people in mind. I value companies that value diversity and inclusion, a sense of fun, a clear sense of purpose, and who do things that make the world just a little more pleasant.",
   },
   {
     key: 2,
@@ -17,7 +17,7 @@ export const BIO_PARAGRAPHS: keyedParagraph[] = [
   {
     key: 3,
     paragraph:
-      "My skills include HTML, CSS, JavaScript, Typescript, React, Angular, Git, Node.js, Mongo, Express.js, SQL, PostgreSQL, GraphQL, Ruby, Rails, Go, Algorithms, and Data Structures. Experience with large codebases, distributed teams, CI/CD, Agile and Scrum methodologies, and reviewing code.",
+      "My skills include HTML, CSS, JavaScript, Typescript, React, Angular, Git, Node.js, Mongo, Express.js, SQL, PostgreSQL, GraphQL, Ruby, Rails, Go, Algorithms, and Data Structures. Experience with large codebases, distributed teams, CI/CD, authoring and reviewing RFCs, Agile and Scrum methodologies, and reviewing code.",
   },
   {
     key: 4,

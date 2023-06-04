@@ -6,7 +6,7 @@ const Header = (props: Props) => (
   <header>
     <div className="header-text">
       <h1>Scott Griffith</h1>
-      <h2> UI Developer | Full-Stack Engineer | Visual Designer</h2>
+      <h2>UI Developer | Full-Stack Engineer</h2>
     </div>
     <nav>
       <div className="navlinks">
