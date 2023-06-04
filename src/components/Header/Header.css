@@ -35,17 +35,14 @@ nav {
 }
 
 @media (width <= 475px) {
-  header h2 {
-    font-size: 0.9rem;
-  }
-
   nav {
     padding: 3px 10px;
   }
 }
 
+
 @media (width <= 375px) {
   header h2 {
-    font-size: 0.7rem;
+    font-size: 1.125rem;
   }
 }
