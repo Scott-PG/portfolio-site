@@ -3,5 +3,5 @@ export interface ShowcaseSection {
   imgSrc: string;
   description: string;
   deployedLink: string;
-  githubLink: string;
+  githubLink?: string;
 }

@@ -38,6 +38,10 @@
   grid-area: l;
   display: flex;
   justify-content: space-evenly;
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 @media (width <= 780px) {
