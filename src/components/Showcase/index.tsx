@@ -21,9 +21,13 @@ const Showcase = () => (
           <a href={showcase.deployedLink} className="showcase-link">
             Deployed Site
           </a>
-          <a href={showcase.githubLink} className="showcase-link">
-            GitHub Repository
-          </a>
+          {!!showcase.githubLink ? (
+            <a href={showcase.githubLink} className="showcase-link">
+              GitHub Repository
+            </a>
+          ) : (
+            <p>Private Repository</p>
+          )}
         </div>
       </div>
     ))}
