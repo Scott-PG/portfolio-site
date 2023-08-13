@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Theme } from "./types";
 
 export const useDarkMode = () => {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>("light");
 
   const setMode = (mode: Theme) => {
     window.localStorage.setItem("theme", mode);
@@ -23,21 +23,9 @@ export const useDarkMode = () => {
 
     if (storedTheme === "light" || storedTheme === "dark") {
       setTheme(storedTheme);
-      return;
-    }
-
-    if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-    ) {
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setMode("dark");
-      return;
-    }
-
-    if (
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: light)").matches
-    ) {
+    } else {
       setMode("light");
     }
   }, []);

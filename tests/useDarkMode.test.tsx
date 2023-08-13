@@ -1,11 +1,11 @@
-import { useDarkMode } from ".";
+import { useDarkMode } from "../src/utils/useDarkMode";
 import { Mock, vi } from "vitest";
 import { renderHook } from "@testing-library/react";
-import { Theme } from "./types";
+import { Theme } from "../src/utils/useDarkMode/types";
 
 interface TestOptions {
   storedTheme: Theme | undefined;
-  preferColor: Theme | undefined;
+  preferColor: "dark" | undefined;
   themeResult: Theme;
 }
 
@@ -23,30 +23,30 @@ Object.defineProperty(window, "matchMedia", {
   })),
 });
 
+let store: Record<string, string | undefined> = { theme: undefined };
+
+vi.spyOn(Storage.prototype, "getItem").mockImplementation(
+  (key) => store[key] ?? null
+);
+
 describe("useDarkMode", () => {
   test.each`
     storedTheme  | preferColor  | themeResult
     ${undefined} | ${undefined} | ${"dark"}
     ${"light"}   | ${undefined} | ${"light"}
     ${"dark"}    | ${undefined} | ${"dark"}
-    ${undefined} | ${"light"}   | ${"light"}
-    ${"light"}   | ${"light"}   | ${"light"}
-    ${"dark"}    | ${"light"}   | ${"dark"}
     ${undefined} | ${"dark"}    | ${"dark"}
     ${"light"}   | ${"dark"}    | ${"light"}
     ${"dark"}    | ${"dark"}    | ${"dark"}
   `(
     "with storedTheme: $storedTheme and a prefers-color-scheme: $preferColor, expect $themeResult",
     ({ storedTheme, preferColor, themeResult }: TestOptions) => {
+      store = { theme: storedTheme };
+
       (
         window.matchMedia("(prefers-color-scheme: dark)")
           .matches as unknown as Mock
       ).mockReturnValueOnce(preferColor === "dark");
-
-      (
-        window.matchMedia("(prefers-color-scheme: light)")
-          .matches as unknown as Mock
-      ).mockReturnValueOnce(preferColor === "light");
 
       const { result } = renderHook(useDarkMode);
 
