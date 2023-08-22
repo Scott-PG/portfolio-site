@@ -39,9 +39,10 @@
   display: flex;
   justify-content: space-evenly;
 
-  a {
-    text-decoration: underline;
-  }
+}
+
+.showcase-link {
+  text-decoration: underline;
 }
 
 @media (width <= 780px) {

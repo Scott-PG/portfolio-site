@@ -3,8 +3,14 @@
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx"
   },
-  "include": ["vite.config.ts", "vite-env.d.ts", "index.html", "./tests"],
-  "exclude": ["/src"]
+  "include": [
+    "vite.config.ts",
+    "vite-env.d.ts",
+    "index.html",
+    "./tests",
+    "src/**/*.test.{ts,tsx}"
+  ],
 }

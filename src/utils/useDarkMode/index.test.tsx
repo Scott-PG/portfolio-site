@@ -1,7 +1,7 @@
-import { useDarkMode } from "../src/utils/useDarkMode";
-import { Mock, vi } from "vitest";
+import { useDarkMode } from ".";
+import { Mock, vi, describe, expect, test } from "vitest";
 import { renderHook } from "@testing-library/react";
-import { Theme } from "../src/utils/useDarkMode/types";
+import { Theme } from "./types";
 
 interface TestOptions {
   storedTheme: Theme | undefined;
