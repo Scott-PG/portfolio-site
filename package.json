@@ -9,6 +9,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "build:prod": "vitest run && vite build",
     "test": "vitest",
     "serve": "vite preview",
     "lint:fix": "eslint . --ext .ts --ext .tsx --fix",

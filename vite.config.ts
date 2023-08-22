@@ -18,7 +18,7 @@ export default defineConfig(() => ({
     stylelint(),
   ],
   test: {
-    globals: true,
+    include: ["src/**/*.test.{ts,tsx}"],
     environment: "jsdom",
     setupFiles: "./tests/setup.ts",
   },
