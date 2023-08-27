@@ -30,7 +30,7 @@
 }
 
 .sun, .moon {
-  height: auto;
+  height: 20px;
   width: 20px;
   transition: all 0.25s linear;
   flex: none;
