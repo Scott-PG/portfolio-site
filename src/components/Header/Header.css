@@ -47,4 +47,8 @@ nav {
   header h2 {
     font-size: 1.125rem;
   }
+
+  .navlinks a {
+    font-size: 1rem;
+  }
 }

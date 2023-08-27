@@ -12,15 +12,10 @@ export const BIO_PARAGRAPHS: KeyedParagraph[] = [
   {
     key: 2,
     paragraph:
-      "Currently, I work for Policygenius as a Software Engineer III. Previously, I worked at CGI Federal as a Junior UI Developer. Before starting as a Software Engineer, I was a theatrical lighting electrician, programmer, designer, and tour manager in NYC, on tour, and aboard cruise ships.",
+      "Currently, I work for Policygenius as a Software Engineer III. Previously, I worked at CGI Federal as a Junior UI Developer. Before starting as a Software Engineer, I was a theatrical lighting electrician, programmer, designer, and tour manager.",
   },
   {
     key: 3,
-    paragraph:
-      "My languages and technologies include HTML, CSS, JavaScript, Typescript, React, Angular, Git, Node.js, Mongo, Express.js, SQL, PostgreSQL, GraphQL, Ruby, Rails, and Go. Experience with algorithms and data structures, large codebases, Continuous Integration / Continuous Deployment, authoring and reviewing RFCs, Agile and Scrum methodologies, and reviewing code.",
-  },
-  {
-    key: 4,
     paragraph:
       "When I'm not coding, I can be found playing games of all sorts, customizing my PC, reading, and exploring Brooklyn.",
   },

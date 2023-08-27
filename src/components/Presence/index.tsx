@@ -2,18 +2,18 @@ import "./Presence.css";
 
 const Presence = () => (
   <div className="presence">
-    <h3 id="presence" className="cyan">
+    <h3 id="presence" className="indigo">
       Presence
     </h3>
     <div className="presence-links">
       <a href="mailto:contact@scottgriffith.dev">
-        <h3>Email</h3>
+        <h4>Email</h4>
       </a>
       <a href="https://www.linkedin.com/in/scott-p-griffith/">
-        <h3>LinkedIn</h3>
+        <h4>LinkedIn</h4>
       </a>
       <a href="https://github.com/Scott-PG">
-        <h3>GitHub</h3>
+        <h4>GitHub</h4>
       </a>
     </div>
     <br />

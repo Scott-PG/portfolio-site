@@ -4,6 +4,7 @@ import "./App.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Skills from "./components/Skills";
 import Presence from "./components/Presence";
 import Showcase from "./components/Showcase";
 
@@ -15,6 +16,7 @@ const App = () => {
       <Header theme={theme} toggleTheme={toggleTheme} />
       <main>
         <About />
+        <Skills />
         <Showcase />
         <Presence />
       </main>
