@@ -1,15 +1,14 @@
-.showcase h3 {
+.projects h3 {
   margin: 25px auto 5px;
-  font-size: 1.5rem;
 }
 
-.showcase {
+.projects {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.showcase-div {
+.projects-div {
   display: grid;
   margin: 20px auto 30px;
   grid-template:
@@ -20,51 +19,51 @@
   column-gap: 30px;
 }
 
-.showcase-image {
+.projects-image {
   grid-area: i;
   max-width: 100%;
   height: auto;
 }
 
-.showcase-title {
+.projects-title {
   grid-area: t;
 }
 
-.showcase-description {
+.projects-description {
   grid-area: d;
 }
 
-.showcase-links {
+.projects-links {
   grid-area: l;
   display: flex;
   justify-content: space-evenly;
 
 }
 
-.showcase-link {
+.projects-link {
   text-decoration: underline;
 }
 
 @media (width <= 780px) {
-  .showcase-div {
+  .projects-div {
     display: block;
     margin: 20px auto;
   }
 
-  .showcase-title {
+  .projects-title {
     margin: 5px auto 10px;
   }
 
-  .showcase-image {
+  .projects-image {
     margin: 5px auto 10px;
   }
 
-  .showcase-description {
+  .projects-description {
     margin: 5px auto 10px;
     max-width: 400px;
   }
 
-  .showcase-links {
+  .projects-links {
     margin: 15px auto 0;
   }
 }

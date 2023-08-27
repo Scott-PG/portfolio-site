@@ -1,7 +1,7 @@
 .toggle.light {
   --toggle-border: #020301;
   --toggle-background: #439cd8;
-  --sun-position: translateX(9.5px);
+  --sun-position: translateX(10.5px);
   --moon-position: translateX(-50px);
 }
 
@@ -25,14 +25,15 @@
   overflow: hidden;
   padding: 0 0.2rem;
   position: relative;
-  width: 48px;
-  height: 32px;
+  width: 36px;
+  height: 28px;
 }
 
 .sun, .moon {
-  height: auto;
-  width: 2.5rem;
+  height: 20px;
+  width: 20px;
   transition: all 0.25s linear;
+  flex: none;
 }
 
 .sun {

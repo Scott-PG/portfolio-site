@@ -1,4 +1,4 @@
-export interface ShowcaseSection {
+export interface ProjectsSection {
   title: string;
   imgSrc: string;
   description: string;

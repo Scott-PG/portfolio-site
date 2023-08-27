@@ -1,19 +1,19 @@
-import "./Presence.css";
+import "./Contact.css";
 
-const Presence = () => (
-  <div className="presence">
-    <h3 id="presence" className="cyan">
-      Presence
+const Contact = () => (
+  <div className="contact">
+    <h3 id="contact" className="indigo">
+      Contact
     </h3>
-    <div className="presence-links">
+    <div className="contact-links">
       <a href="mailto:contact@scottgriffith.dev">
-        <h3>Email</h3>
+        <h4>Email</h4>
       </a>
       <a href="https://www.linkedin.com/in/scott-p-griffith/">
-        <h3>LinkedIn</h3>
+        <h4>LinkedIn</h4>
       </a>
       <a href="https://github.com/Scott-PG">
-        <h3>GitHub</h3>
+        <h4>GitHub</h4>
       </a>
     </div>
     <br />
@@ -31,4 +31,4 @@ const Presence = () => (
   </div>
 );
 
-export default Presence;
+export default Contact;
