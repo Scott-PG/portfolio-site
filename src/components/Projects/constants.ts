@@ -1,10 +1,10 @@
-import { ShowcaseSection } from "./types";
+import { ProjectsSection } from "./types";
 
 import anChoiPic from "../../assets/images/an-choi-screen.png";
 import payPaladinPic from "../../assets/images/paypaladin-screen.png";
 import mortarPic from "../../assets/images/mortar-screen.png";
 
-export const SHOWCASE_ARRAY: ShowcaseSection[] = [
+export const PROJECT_ARRAY: ProjectsSection[] = [
   {
     title: "Mortar",
     imgSrc: mortarPic,

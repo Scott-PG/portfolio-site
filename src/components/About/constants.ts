@@ -7,7 +7,7 @@ export const BIO_PARAGRAPHS: KeyedParagraph[] = [
   {
     key: 1,
     paragraph:
-      "I am an enthusiastic and personable software engineer who enjoys solving problems and collaborating with other people. I strive to create useful, performant, and accessible experiences with real people in mind. I value companies that value diversity and inclusion, a sense of fun, a clear sense of purpose, and who do things that make the world just a little more pleasant.",
+      "I am an enthusiastic and personable software engineer who enjoys solving problems and collaborating with other people. I strive to create useful, performant, and accessible experiences with real people in mind. I appreciate companies that value diversity and inclusion, a sense of fun, a clear sense of purpose, and who do things that make the world just a little more pleasant.",
   },
   {
     key: 2,

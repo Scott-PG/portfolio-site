@@ -1,11 +1,11 @@
-import "./Presence.css";
+import "./Contact.css";
 
-const Presence = () => (
-  <div className="presence">
-    <h3 id="presence" className="indigo">
-      Presence
+const Contact = () => (
+  <div className="contact">
+    <h3 id="contact" className="indigo">
+      Contact
     </h3>
-    <div className="presence-links">
+    <div className="contact-links">
       <a href="mailto:contact@scottgriffith.dev">
         <h4>Email</h4>
       </a>
@@ -31,4 +31,4 @@ const Presence = () => (
   </div>
 );
 
-export default Presence;
+export default Contact;

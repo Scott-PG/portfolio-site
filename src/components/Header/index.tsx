@@ -16,11 +16,11 @@ const Header = (props: Props) => (
         <a href="#skills">
           <span className="cyan title">Skills</span>
         </a>
-        <a href="#showcase">
-          <span className="orange title">Showcase</span>
+        <a href="#projects">
+          <span className="orange title">Projects</span>
         </a>
-        <a href="#presence">
-          <span className="indigo title">Presence</span>
+        <a href="#contact">
+          <span className="indigo title">Contact</span>
         </a>
         <Toggle {...props} />
       </div>

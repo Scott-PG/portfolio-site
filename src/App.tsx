@@ -4,9 +4,9 @@ import "./App.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Presence from "./components/Presence";
-import Showcase from "./components/Showcase";
 
 const App = () => {
   const { theme, toggleTheme } = useDarkMode();
@@ -17,8 +17,8 @@ const App = () => {
       <main>
         <About />
         <Skills />
-        <Showcase />
-        <Presence />
+        <Projects />
+        <Contact />
       </main>
       <Footer />
     </div>
