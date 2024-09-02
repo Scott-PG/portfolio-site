@@ -33,7 +33,7 @@
 }
 
 .app {
-  transition: all 0.25s linear;
+  transition: color 0.15s ease-in-out, background-color 0.3s ease-in-out;
   background-color: var(--body-background);
   color: var(--main-text-color);
 }
@@ -48,6 +48,7 @@ h2,
 h3,
 h4,
 h5,
+dt,
 .title {
   font-family: Jost, sans-serif;
 }

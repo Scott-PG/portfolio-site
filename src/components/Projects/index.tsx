@@ -17,18 +17,22 @@ const Projects = () => (
           alt=""
         />
         <p className="projects-description">{projects.description}</p>
-        <div className="projects-links">
-          <a href={projects.deployedLink} className="projects-link">
-            Deployed Site
-          </a>
-          {!!projects.githubLink ? (
-            <a href={projects.githubLink} className="projects-link">
-              GitHub Repository
+        <ul className="projects-links">
+          <li>
+            <a href={projects.deployedLink} className="projects-link">
+              Deployed Site
             </a>
-          ) : (
-            <p>Private Repository</p>
-          )}
-        </div>
+          </li>
+          <li>
+            {!!projects.githubLink ? (
+              <a href={projects.githubLink} className="projects-link">
+                GitHub Repository
+              </a>
+            ) : (
+              <span>Private Repository</span>
+            )}
+          </li>
+        </ul>
       </div>
     ))}
   </div>

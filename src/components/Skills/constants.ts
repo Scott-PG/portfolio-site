@@ -9,15 +9,15 @@ export const SKILL_GROUPS: SkillGroup[] = [
     skillList: [
       "JavaScript",
       "Typescript",
-      "Ruby",
       "Go",
+      "Ruby",
       "REST",
-      "GRPC",
       "GraphQL",
+      "GRPC",
     ],
   },
   {
-    title: "Front-end",
+    title: "Frontend",
     skillList: [
       "HTML",
       "CSS",
@@ -32,7 +32,7 @@ export const SKILL_GROUPS: SkillGroup[] = [
     ],
   },
   {
-    title: "Back-end",
+    title: "Backend",
     skillList: [
       "Node.js",
       "MongoDB",
@@ -47,10 +47,10 @@ export const SKILL_GROUPS: SkillGroup[] = [
     skillList: [
       "Git",
       "Github",
-      "Fastly",
       "Jest/RTL",
       "Webpack",
       "Buildkite",
+      "Fastly",
       "Datadog",
       "Google Cloud Provider",
     ],

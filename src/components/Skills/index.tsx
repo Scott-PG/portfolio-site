@@ -6,14 +6,14 @@ const Skills = () => (
     <h3 id="skills" className="cyan">
       Skills
     </h3>
-    <div className="skills-layout">
+    <dl className="skills-layout">
       {SKILL_GROUPS.map(({ title, skillList }) => (
         <div key={title}>
-          <h4>{title}</h4>
-          <p>{skillList.join(", ")}</p>
+          <dt>{title}</dt>
+          <dd>{skillList.join(", ")}</dd>
         </div>
       ))}
-    </div>
+    </dl>
   </div>
 );
 

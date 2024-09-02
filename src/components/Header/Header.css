@@ -29,6 +29,10 @@ nav {
   align-items: center;
 }
 
+.navlinks li {
+  list-style: none;
+}
+
 .navlinks a {
   text-decoration: none;
   font-weight: bold;

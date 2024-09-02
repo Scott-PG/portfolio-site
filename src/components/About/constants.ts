@@ -12,7 +12,7 @@ export const BIO_PARAGRAPHS: KeyedParagraph[] = [
   {
     key: 2,
     paragraph:
-      "Currently, I work for Policygenius as a Software Engineer III. Previously, I worked at CGI Federal as a Junior UI Developer. Before starting as a Software Engineer, I was a theatrical lighting electrician, programmer, designer, and tour manager.",
+      "Currently, I work at Fastly as a Senior Software Engineer. Previously, I worked at Policygenius as a SWE I, SWE II, and SWE III, and at CGI Federal as a Junior UI Developer. Before starting as a Software Engineer, I was a theatrical lighting electrician, programmer, designer, and tour manager.",
   },
   {
     key: 3,
