@@ -1,45 +1,56 @@
 .toggle.light {
   --toggle-border: #020301;
   --toggle-background: #439cd8;
-  --sun-position: translateX(10.5px);
-  --moon-position: translateX(-50px);
+  --sun-position: translateX(-10px);
+  --moon-position: translateX(-21px);
 }
 
 .toggle.dark {
   --toggle-border: #FDF9F3;
   --toggle-background: #1E215D;
-  --sun-position: translateX(50px);
-  --moon-position: translateX(-8px);
+  --sun-position: translateX(21px);
+  --moon-position: translateX(10px);
 }
 
 .toggle {
-  transition: all 0.25s linear;
-  background: var(--toggle-background);
+  transition: background-color 0.25s linear, border 0.25s linear;
+  background-color: var(--toggle-background);
   border: 2px solid var(--toggle-border);
   border-radius: 30px;
   cursor: pointer;
   display: flex;
-  font-size: 0.5rem;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding: 0 0.2rem;
   position: relative;
   width: 36px;
   height: 28px;
 }
 
-.sun, .moon {
-  height: 20px;
-  width: 20px;
-  transition: all 0.25s linear;
-  flex: none;
+/* Screen-reader only visibility */
+.toggle span, .toggle input {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
-.sun {
+.toggle::before {
+  content: url("data:image/svg+xml;utf8, %3Csvg enableBackground='new 0 0 20 20' version='1.1' viewBox='0 0 20 20' xmlSpace='preserve' xmlns='http://www.w3.org/2000/svg'%0A%3E%3Cpath d='m6.2695 0c-0.87891 0-1.7266 0.11328-2.5391 0.32422 4.293 1.125 7.4609 5.0312 7.4609 9.6758s-3.168 8.5508-7.4609 9.6758c0.8125 0.21094 1.6602 0.32422 2.5391 0.32422 5.5234 0 10-4.4766 10-10s-4.4766-10-10-10z' fill='%23ffcc67' /%3E%3C/svg%3E");
+  transform: var(--moon-position);
+}
+
+.toggle::after {
+  content: url("data:image/svg+xml;utf8, %3Csvg enableBackground='new 0 0 20 20' version='1.1' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%0A%3E%3Cg fill='%23ffcc67'%3E%3Cpath d='m3.375 11.66-3.375-1.7148 3.375-1.7188z' /%3E%3Cpath d='m16.625 11.66 3.375-1.7148-3.375-1.7188z' /%3E%3Cpath d='m3.3008 7.4375-1.8047-3.3281 3.7539 0.50391z' /%3E%3Cpath d='m16.699 7.4375 1.8047-3.3281-3.7539 0.50391z' /%3E%3Cpath d='m10.609 2.9883 2.8594-2.4844 0.32031 3.7734z' /%3E%3Cpath d='m9.3906 2.9883-2.8594-2.4844-0.32031 3.7734z' /%3E%3Cpath d='m3.3008 12.562-1.8047 3.3281 3.7539-0.50391z' /%3E%3Cpath d='m16.699 12.562 1.8047 3.3281-3.7539-0.50391z' /%3E%3Cpath d='m10.609 17.012 2.8594 2.4844 0.32031-3.7734z' /%3E%3Cpath d='m9.3906 17.012-2.8594 2.4844-0.32031-3.7734z' /%3E%3Cpath d='m9.9414 4.2773c-3.1602 0-5.7227 2.5625-5.7227 5.7227s2.5625 5.7227 5.7227 5.7227 5.7227-2.5625 5.7227-5.7227-2.5625-5.7227-5.7227-5.7227z' /%3E%3C/g%3E%3C/svg%3E");
   transform: var(--sun-position);
 }
 
-.moon {
-  transform: var(--moon-position);
+.toggle::before, .toggle::after {
+  height: 20px;
+  width: 20px;
+  transition: transform 0.25s linear;
+  flex: none;
 }

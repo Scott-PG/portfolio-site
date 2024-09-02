@@ -4,6 +4,10 @@
   gap: 15px;
 }
 
-.skills h3 {
+.skills h3{
   margin: 25px auto 15px;
+}
+
+.skills dt {
+  font-weight: bold;
 }

@@ -9,21 +9,31 @@ const Header = (props: Props) => (
       <h2>UI Developer | Full-Stack Engineer</h2>
     </div>
     <nav>
-      <div className="navlinks">
-        <a href="#about">
-          <span className="magenta title">About</span>
-        </a>
-        <a href="#skills">
-          <span className="cyan title">Skills</span>
-        </a>
-        <a href="#projects">
-          <span className="orange title">Projects</span>
-        </a>
-        <a href="#contact">
-          <span className="indigo title">Contact</span>
-        </a>
-        <Toggle {...props} />
-      </div>
+      <ul className="navlinks">
+        <li>
+          <a href="#about">
+            <span className="magenta title">About</span>
+          </a>
+        </li>
+        <li>
+          <a href="#skills">
+            <span className="cyan title">Skills</span>
+          </a>
+        </li>
+        <li>
+          <a href="#projects">
+            <span className="orange title">Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <span className="indigo title">Contact</span>
+          </a>
+        </li>
+        <li>
+          <Toggle {...props} />
+        </li>
+      </ul>
     </nav>
   </header>
 );
