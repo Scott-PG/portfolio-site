@@ -5,7 +5,6 @@
   },
   "eslint.enable": true,
   "eslint.format.enable": true,
-  "eslint.packageManager": "yarn",
   "eslint.probe": [
     "javascript",
     "javascriptreact",
