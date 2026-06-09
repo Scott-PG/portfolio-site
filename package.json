@@ -53,6 +53,6 @@
     "vite-plugin-stylelint": "^4.3.0",
     "vite-plugin-svgr": "^3.2.0",
     "vite-tsconfig-paths": "^4.2.0",
-    "vitest": "^0.33.0"
+    "vitest": "^3.2.6"
   }
 }
